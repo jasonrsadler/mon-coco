@@ -1,0 +1,29 @@
+{
+  "name": "mon-coco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --verbose | snazzy",
+    "start": "nodemon index.js",
+    "test": "cross-env NODE_ENV=test mocha \"test/**/*-test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonrsadler/mon-coco.git"
+  },
+  "author": "Jason Sadler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonrsadler/mon-coco/issues"
+  },
+  "homepage": "https://github.com/jasonrsadler/mon-coco#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "mocha": "^7.1.0",
+    "nodemon": "^2.0.2",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.3"
+  }
+}
